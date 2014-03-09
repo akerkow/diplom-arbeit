@@ -1,0 +1,39 @@
+\select@language {ngerman}
+\select@language {ngerman}
+\contentsline {section}{\nonumberline Abbildungsverzeichnis}{IV}{section*.2}
+\contentsline {section}{\nonumberline Tabellenverzeichnis}{IV}{section*.3}
+\contentsline {section}{\nonumberline Script-Verzeichnis}{IV}{section*.4}
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.5}
+\contentsline {section}{\numberline {2}Hypothesen und Versuchsaufbau}{2}{section.6}
+\contentsline {subsection}{\numberline {2.1}Hypothesen}{2}{subsection.7}
+\contentsline {subsection}{\numberline {2.2}Versuchsaufbau}{2}{subsection.8}
+\contentsline {section}{\numberline {3}Untersuchungsgebiete}{4}{section.11}
+\contentsline {subsection}{\numberline {3.1}Hiddenseer Boddengew\IeC {\"a}sser (Antje Kerkow, Caroline Lindner)}{4}{subsection.12}
+\contentsline {subsubsection}{\numberline {3.1.1}Vitter Bodden (Bozena Nawka, ver\IeC {\"a}ndert)}{5}{subsubsection.13}
+\contentsline {subsubsection}{\numberline {3.1.2}Griebener Bucht (Milena Kafka, ver\IeC {\"a}ndert)}{6}{subsubsection.15}
+\contentsline {subsection}{\numberline {3.2}Weitere Buchten und Bodden der s\IeC {\"u}dlichen Deutschen Ostsee entlang des Salzgradienten}{7}{subsection.17}
+\contentsline {subsubsection}{\numberline {3.2.1}Geltinger Bucht (Antje Kerkow)}{7}{subsubsection.19}
+\contentsline {subsubsection}{\numberline {3.2.2}Orther Bucht (Antje Kerkow)}{8}{subsubsection.21}
+\contentsline {subsubsection}{\numberline {3.2.3}Salzhaff (Caroline Lindner, ver\IeC {\"a}ndert)}{9}{subsubsection.23}
+\contentsline {subsubsection}{\numberline {3.2.4}Spandowerhagener Wiek (Caroline Lindner, ver\IeC {\"a}ndert)}{10}{subsubsection.25}
+\contentsline {section}{\numberline {4}Methoden}{12}{section.27}
+\contentsline {subsection}{\numberline {4.1}Vegetationskartierung}{12}{subsection.28}
+\contentsline {subsection}{\numberline {4.2}PV und PVI}{13}{subsection.30}
+\contentsline {subsection}{\numberline {4.3}Mittlere Wassertiefe}{13}{subsection.31}
+\contentsline {subsection}{\numberline {4.4}Biomasse}{14}{subsection.32}
+\contentsline {subsection}{\numberline {4.5}Sediment}{15}{subsection.33}
+\contentsline {subsubsection}{\numberline {4.5.1}Analytik in Gel\IeC {\"a}nde und Labor}{15}{subsubsection.34}
+\contentsline {subsubsection}{\numberline {4.5.2}Berechnungen der Kennwerte}{17}{subsubsection.35}
+\contentsline {subsection}{\numberline {4.6}Datenanalyse und Kartenerstellung}{18}{subsection.36}
+\contentsline {section}{\numberline {5}Ergebnisse}{19}{section.37}
+\contentsline {subsection}{\numberline {5.1}Hiddenseer Standorte im Verlauf der Wachstumssaison}{19}{subsection.38}
+\contentsline {subsubsection}{\numberline {5.1.1}Vegetation}{19}{subsubsection.39}
+\contentsline {subsubsection}{\numberline {5.1.2}Sediment}{19}{subsubsection.42}
+\contentsline {subsubsection}{\numberline {5.1.3}Biomasse}{19}{subsubsection.43}
+\contentsline {subsection}{\numberline {5.2}Standorte entlang des Salzgradienten}{19}{subsection.44}
+\contentsline {subsubsection}{\numberline {5.2.1}Vegetation}{19}{subsubsection.45}
+\contentsline {subsubsection}{\numberline {5.2.2}Sediment}{19}{subsubsection.46}
+\contentsline {section}{\numberline {6}Diskussion}{20}{section.47}
+\contentsline {section}{\numberline {7}Zusammenfassung}{21}{section.48}
+\contentsline {section}{\nonumberline Literatur}{22}{section*.49}
+\contentsline {section}{Anhang}{26}{section*.50}
