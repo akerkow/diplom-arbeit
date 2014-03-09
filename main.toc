@@ -33,7 +33,7 @@
 \contentsline {subsection}{\numberline {5.2}Standorte entlang des Salzgradienten}{19}{subsection.44}
 \contentsline {subsubsection}{\numberline {5.2.1}Vegetation}{19}{subsubsection.45}
 \contentsline {subsubsection}{\numberline {5.2.2}Sediment}{19}{subsubsection.46}
-\contentsline {section}{\numberline {6}Diskussion}{20}{section.47}
-\contentsline {section}{\numberline {7}Zusammenfassung}{21}{section.48}
-\contentsline {section}{\nonumberline Literatur}{22}{section*.49}
-\contentsline {section}{Anhang}{26}{section*.50}
+\contentsline {section}{\numberline {6}Diskussion}{21}{section.47}
+\contentsline {section}{\numberline {7}Zusammenfassung}{22}{section.48}
+\contentsline {section}{\nonumberline Literatur}{23}{section*.49}
+\contentsline {section}{Anhang}{27}{section*.50}
