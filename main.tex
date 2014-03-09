@@ -1,11 +1,10 @@
 % Aus der Datei preambel.tex werden alle globalen Einstellungen für das Dokument geladen:
 \input{preambel.tex}
 
-
 %%% Hier wird die Titelseite angepasst:
 
 % Seitenrahmen und Nummerierungen ausschalten
-\pagestyle{empty}
+%\pagestyle{empty}
 
 % fuer den Anfang roemische Seitennummern
 \pagenumbering{Roman}    % roman | arabic
@@ -41,12 +40,12 @@
 \clearpage
 
 
-\pagestyle{scrheadings}    % wieder auf normale Seitenrahmen zurück schalten
-\clearscrheadfoot
+%\pagestyle{scrheadings}    % wieder auf normale Seitenrahmen zurück schalten
+%\clearscrheadfoot
 
-\automark[subsection]{section}
-\cfoot{\pagemark}
-\chead{\headmark}
+%\automark[subsection]{section}
+%\cfoot{\pagemark}
+%\chead{\headmark}
 
 % Inhaltsverzeichnis in den PDF-Links eintragen
 \pdfbookmark[1]{Inhaltsverzeichnis}{toc}
@@ -62,9 +61,6 @@
 %%% Tabellenverzeichnis 
 \listoftables
 
-%%% Listings-Verzeichnis 
-\lstlistoflistings
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage % Beginn des Textkörpers
@@ -79,17 +75,17 @@
 \clearpage
 
 \section{Hypothesen und Versuchsaufbau}
-\input{content/Versuchsaufbau.tex}
+%\input{content/Versuchsaufbau.tex}
 
 \clearpage
 
 \section{Untersuchungsgebiete}
-\input{content/2_Untersuchungsgebiete.tex}
+%\input{content/2_Untersuchungsgebiete.tex}
 
 \clearpage
 
 \section{Methoden}
-\input{content/3_Methoden.tex}
+%\input{content/3_Methoden.tex}
 
 \clearpage
 
@@ -125,7 +121,7 @@
 
 %%% Anhang %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\pagestyle{plain} 
+%\pagestyle{scrplain} 
 
 \section*{Anhang} % Kapitel ohne Nummerierung
 \addcontentsline{toc}{section}{Anhang}

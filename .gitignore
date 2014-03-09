@@ -1,3 +1,4 @@
+*.log
 *.aux
 *.bbl
 *.blg
@@ -9,3 +10,5 @@
 *.toc
 *.swp
 *~
+*.fls
+*.fdb_latexmk
