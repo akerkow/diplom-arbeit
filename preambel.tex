@@ -8,8 +8,10 @@
 \usepackage{multicol}
 \usepackage{multirow}
 
+\usepackage{enumitem} %Eingerückte Aufzählungen gestalten:
 
 \usepackage{cmap} % to make the PDF files "searchable and copyable" in pdf viewer
+
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
@@ -30,6 +32,8 @@
 \usepackage{caption3}
 \usepackage{subcaption}			% zum Einbinden von Grafiken nebeneinander!!!
 \usepackage{epstopdf}
+\usepackage{placeins}			% mit \FloatBarrier maximale Barriere zum Wegrutschen von Bildern setzen
+
 
 \usepackage[thinqspace, textstyle]{SIunits} %Syntax: \unit{0}{\kelvin} sind \unit{273}{\celsius} oder z.b. {\watt\per\square\meter}, oder \unit{12}{\kilo\square\meter} für Quadratkilometer
 
@@ -38,16 +42,12 @@
 %\usepackage{amsmath} % Auskommentieren, wenn mathematische Formeln gesetzt werden sollen.
 \usepackage{pifont,mathptmx,charter,courier}
 \usepackage[scaled]{helvet}
-\usepackage{vmargin,fancyhdr}
+
 \usepackage{mathrsfs,amssymb}
 \usepackage[intlimits]{empheq}
 \usepackage{theorem}
-\usepackage{parskip}
+%\usepackage{parskip}
 \tolerance=2000
-
-
-
-
 
 
 % Support for PDF inclusion
@@ -57,27 +57,6 @@
 %\doublespacing			% doppelter Zeilenabstand
 \onehalfspacing			% Zeilenabstand 1,5
 
-%%% Listings (Quelltext-Darstellungen) formatieren %%%
-\usepackage{listings}
-\definecolor{codegray}{gray}{.95}
-\definecolor{darkblue}{rgb}{0,0,.6}
-\definecolor{darkred}{rgb}{.6,0,0}
-\definecolor{darkgreen}{rgb}{0,.6,0}
-\definecolor{red}{rgb}{.98,0,0}
-\definecolor{Tgreen}{HTML}{73D216}	% tango chameleon 2#
-\definecolor{Tlilacdark}{HTML}{5C3566}	% tango plum 3
-\definecolor{Tlilac}{HTML}{75507B}	% tango plum 2
-\lstset{basicstyle=\footnotesize\ttfamily, frame=single, backgroundcolor=\color{white}, breaklines, 		showstringspaces=false,
-  commentstyle=\color{Tlilac}, keywordstyle=\bfseries\color{Tgreen}, stringstyle=\color{darkred},
-  xleftmargin=0.5cm, numbers=left, numberstyle=\footnotesize, stepnumber=1, numbersep=5pt, 
-  literate={ö}{{\"o}}1 % Probleme mit Umlauten in Codeumgebungen umgehen
-           {ä}{{\"a}}1
-           {ü}{{\"u}}1
-           {ß}{{ss}}1
-}
-
-\renewcommand*\lstlistlistingname{Script-Verzeichnis} % Umbenennen des Listing-Verz. in Script-Verz.
-\renewcommand*\lstlistingname{Script} % Umbenennen des Listings in Script
 
 %%% Hyperref-Paket
 \usepackage[
