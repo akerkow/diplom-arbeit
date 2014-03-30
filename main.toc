@@ -49,5 +49,4 @@
 \contentsline {subsubsection}{\numberline {5.3.4}Spandowerhagener Wiek}{53}{subsubsection.102}
 \contentsline {section}{\numberline {6}Diskussion}{57}{section.106}
 \contentsline {section}{\numberline {7}Zusammenfassung}{58}{section.107}
-\contentsline {section}{\nonumberline Literatur}{59}{section*.108}
-\contentsline {section}{Anhang}{60}{section*.109}
+\contentsline {section}{Anhang}{59}{section*.108}
