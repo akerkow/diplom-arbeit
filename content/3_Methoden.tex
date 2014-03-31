@@ -178,10 +178,10 @@ Um den organischen Gehalt in Form des aschfreien Trockengewichtes zu untersuchen
 
 Für die Korngrößenanalyse wurden weitere \unit{100}{\gram} des frischen Sedimentes abgewogen und nass gesiebt. Dafür wurde eine Siebkaskade mit mittleren Korngrößendurchlässen von \unit{1000}{\micro\metre}, \unit{500}{\micro\metre}, \unit{250}{\micro\metre}, \unit{125}{\micro\metre} und \unit{63}{\micro\metre} verwendet. Der Anteil einer jeden Kornfraktion wurde in bei \unit{105}{\celsius} getrocknete  und danach eingewogene Aluminiumschälchen gefüllt und ebenso wie die \unit{5}{\milli\litre}-Proben mindestens 24 Stunden bei \unit{105}{\celsius} getrocknet und nach dem Abkühlen gewogen. Durch Aufaddieren aller Gewichte der getrockneten Korngrößen abzüglich des prozentualen Wassergehaltes konnte geschlussfolgert werden, wie groß der Anteil der Sedimentfraktion unter \unit{63}{\micro\metre} Durchmesser war. Mit Hilfe dieser Werte konnten die Gewichte aller gröberen Korngrößenfraktionen anteilig zur Summe der Gewichte aller Korngrößen berechnet werden.
 
-Für die weitere statistische Auswertung wurden alle Korngrößenklassen mit dem negativen Logarithmus zur Basis 2 in $ \phi $-Werte umgerechnet. 
+Für die weitere statistische Auswertung wurden alle Korngrößenklassen mit dem negativen Logarithmus zur Basis 2 in $ \Phi $-Werte umgerechnet. 
 Zur Beschreibung der Korngrößenverteilungen wurden für jeden Plot an jedem Untersuchungstag Median, Mittelwert, Sortierung und Schiefe ausgerechnet und die Werte der jeweiligen Replikate für jedes Datum gemittelt.
 
-Die Sedimentproben entlang des Salzgradienten wurden von Franziska Bitschofsky (BACOSA-Doktorandin der Universität Rostock) aus den Untersuchungsflächen entnommen und bearbeitet. Dabei wurde jeweils nur ein Sedimentkern pro Standort für die Korngrößenanalyse aus dem dichtbewachsenen und aus dem spärlich bewachsenen Bereich entnommen. Aus jedem Kern wurden im Labor 3 Messparallelen untersucht. Die Nasssiebung, das Trocknen und Verbrennen erfolgten auf die gleiche Art wie bei den Hiddenseer Langzeitstandorten.
+Die Sedimentproben entlang des Salzgradienten wurden von Franziska Bitschofsky (BACOSA-Doktorandin der Universität Rostock) aus den Untersuchungsflächen entnommen und bearbeitet. Dabei wurde jeweils nur ein Sedimentkern pro Standort für die Korngrößenanalyse aus dem dichtbewachsenen und aus dem spärlich bewachsenen Bereich entnommen. Aus jedem Kern wurden im Labor 3 Messparallelen untersucht und Mittelwerte (arithmetisches Mittel) gebildet. Die Nasssiebung, das Trocknen und Verbrennen erfolgten auf die gleiche Art wie bei den Hiddenseer Langzeitstandorten.
 
 
  
@@ -205,20 +205,24 @@ Die Sedimentproben entlang des Salzgradienten wurden von Franziska Bitschofsky (
  S_{d_{<63}} (\%) &=\frac{M-L(\%)}{100}-\sum_{k=a}^e S_d__k & M&=\text{Gesamteinwaage Feucht-}\\
   & & 	 &\text{\quad probe}\\
  \\
- \phi &=-log_2 \frac{d}{d_0} & d&=\text{Korndurchmesser}\\
+ \Phi &=-log_2 \frac{d}{d_0} & d&=\text{Korndurchmesser}\\
  \\
- \tilde{x} &=\phi_{50} & \tilde{x}&= \text{Median}\\
+ \tilde{x} &=\Phi_{50} & \tilde{x}&= \text{Median}\\
  \\
- \bar{x}&=\frac{\phi_{16} +\phi_{50} + \phi_{84}}{3} & \bar{x} &= \text{Mittelwert} \\
+ \bar{x}&=\frac{\Phi_{16} +\Phi_{50} + \Phi_{84}}{3} & \bar{x} &= \text{Mittelwert} \\
  \\
- So &=\frac{\phi_{84}-\phi_{16}}{4} + \frac{\phi_{95}-\phi_5}{6,6} & So &= \text{Sortierung}\\             
+ So &=\frac{\Phi_{84}-\Phi_{16}}{4} + \frac{\Phi_{95}-\Phi_5}{6,6} & So &= \text{Sortierung}\\             
  \\
- Sk &=\frac{\phi_{16}+\phi_{84}-2*\phi_{50}}{2*(\phi_{95}-\phi_{5})} + \frac{\phi_{5}+\phi_{95}-2*\phi_{50}}{2*(\phi_{84}-   \phi_{16})} & Sk &= \text{Schiefe} 
+ Sk &=\frac{\Phi_{16}+\Phi_{84}-2*\Phi_{50}}{2*(\Phi_{95}-\Phi_{5})} + \frac{\Phi_{5}+\Phi_{95}-2*\Phi_{50}}{2*(\Phi_{84}-   \Phi_{16})} & Sk &= \text{Schiefe} 
 \end{align*}
 \\
 
 
 \subsection{Datenanalyse und Kartenerstellung}
 
-Dateneingabe und Berechnungen erfolgten in Microsoft Office Excel 2007. Histogramme, Boxplots und Balkendiagramme wurden mit IBM SPSS Statistics 20 erstellt. Auch der Mann-Whitney-Test und der Kruskal-Wallis-Test wurden damit berechnet. Für multiple Vergleiche mit dem Dunn's-Test wurde das Programm GraphPad Prism 6 benutzt. Die Visualisierung der Regressionsmatritzen und die Bestimmung der besten multiplen Regressionsmodelle wurden mit Minitab 16 durchgeführt. Die Erstellung der Karten erfolgte mit QGIS 2.0.1. 
+Dateneingabe und Berechnungen erfolgten in Microsoft Office Excel 2007. Mit Histogrammen wurden die mittleren Korngrößen, Sortierung, Schiefe und organischer Anteil der Sedimente sowie der Gehalt der \Unit{< 63}{\mu\metre}-Fraktion und außerdem Deckungsgrade, PVI-Werte, Biomasse und Gehalt der organischen Substanz der Biomasse der Hiddenseer Standorte auf Normalverteilung und Gleichheit der Varianzen untersucht. Anschließend wurde mit dem Mann-Whitney-Test analysiert, ob sich die Parameter zu jedem Zeitpunkt zwischen den dicht und spärlich bewachsenen Arealen in Grieben sowie in Vitte unterscheiden. Mit dem Kruskal-Wallis-Test wurde untersucht, ob sich die Parameter (außer der Biomasse) im Jahresverlauf unterscheiden. Trat dieses Ergebnis ein, wurde mit multiplen Vergleichen mit dem Dunn's Test untersucht, zwischen welchen Tagen sie sich unterscheiden. Innerhalb des Dunn's Tests wurde der \textit{p}-Wert korrigiert. Bei einem \textit{p}-Wert unter 0.05 wurde ein Ergebnis als signifikant gewertet.
+
+Die Ergebnisse wurden mit Boxplots und Balkendiagrammen visualisiert. Aufgrund der geringen Stichprobengröße und des kategorialen Charakters der Daten für die Deckungsgrade wurden die statistischen Größen mit dem Median und der mittleren Abweichung vom Median (MAD)gezeigt. Histogramme, Boxplots und Balkendiagramme wurden mit IBM SPSS Statistics 20 erstellt. Auch der Mann-Whitney-Test und der Kruskal-Wallis-Test wurden damit berechnet. Für multiple Vergleiche mit dem Dunn's-Test wurde das Programm GraphPad Prism 6 benutzt. 
+
+Die Visualisierung der Regressionsmatritzen und die Bestimmung der besten multiplen Regressionsmodelle wurden mit Minitab 16 durchgeführt. Die Erstellung der Karten erfolgte mit QGIS 2.0.1. 
 
